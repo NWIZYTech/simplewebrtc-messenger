@@ -21,8 +21,5 @@
     "semantic-ui-css": "^2.3.1",
     "simplewebrtc": "^3.0.1"
   }
-    "scripts": {
-    "build": "mkdir -p dist/js && uglifyjs src/js/*.js -m -o dist/js/app.js",
 
-   }
 }

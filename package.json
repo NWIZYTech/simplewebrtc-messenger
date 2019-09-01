@@ -22,6 +22,7 @@
     "simplewebrtc": "^3.0.1"
   }
     "scripts": {
-    "build": "parcel src/*.js --target=node && parcel src/*/*.js --target=node"
-  }
+    "build": "mkdir -p dist/js && uglifyjs src/js/*.js -m -o dist/js/app.js",
+
+   }
 }

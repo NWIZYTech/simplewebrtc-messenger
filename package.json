@@ -21,4 +21,7 @@
     "semantic-ui-css": "^2.3.1",
     "simplewebrtc": "^3.0.1"
   }
+    "scripts": {
+    "build": "next build"
+  }
 }

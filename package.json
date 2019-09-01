@@ -22,6 +22,6 @@
     "simplewebrtc": "^3.0.1"
   }
     "scripts": {
-    "build": "next build"
+    "build": "parcel src/*.js --target=node && parcel src/*/*.js --target=node"
   }
 }
